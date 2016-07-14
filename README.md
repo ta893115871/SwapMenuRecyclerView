@@ -7,6 +7,9 @@
 #layout布局图
 <img src="/screenshots/layout.png"/></p>
 
+#原理分析
+<http://blog.csdn.net/ta893115871/article/details/51909094/>
+
 #Maven
 
 ```java
