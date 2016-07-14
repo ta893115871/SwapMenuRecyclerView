@@ -1,0 +1,36 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+}
+
+publish {
+    userOrg = 'ta893115871'//bintray.com用户名
+    groupId = 'com.gxz'//jcenter上的路径
+    artifactId = 'swapmenurecyclerview'//项目名称
+    publishVersion = '1.0'//版本号
+    desc = 'swapmenurecyclerview'//描述
+    website = ''////网站，一般是github上的地址
+    licences = ['Apache-2.0']
+}
