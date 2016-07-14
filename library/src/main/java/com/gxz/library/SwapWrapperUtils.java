@@ -10,12 +10,12 @@ import com.gxz.library.view.SwipeMenuView;
 
 /**
  * ================================================
- * <br/>作    者：顾修忠-guxiuzhong@youku.com/gfj19900401@163.com
- * <br/>版    本：
- * <br/>创建日期：16/7/10-上午12:17
- * <br/>描    述：包装RecyclerView的item的辅助类
- * <br/>修订历史：
- * <br/>================================================
+ * 作    者：顾修忠-guxiuzhong@youku.com/gfj19900401@163.com
+ * 版    本：
+ * 创建日期：16/7/10-上午12:17
+ * 描    述：包装RecyclerView的item的辅助类
+ * 修订历史：
+ * ================================================
  */
 public class SwapWrapperUtils {
 

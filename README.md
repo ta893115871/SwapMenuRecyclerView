@@ -7,18 +7,26 @@
 
 ```java
 <dependency>
-        <groupId>com.gxz.stickynavlayout</groupId>
-        <artifactId>library</artifactId>
-        <version>1.2</version>
-        <type>jar</type>
-        <classifier>sources</classifier>
+  <groupId>com.gxz</groupId>
+  <artifactId>swapmenurecyclerview</artifactId>
+  <version>1.0</version>
+  <type>pom</type>
 </dependency>
 ```
 # Gradle
 
 ```java
 
-    compile 'com.gxz.stickynavlayout:library:1.2'
+    compile 'com.gxz:swapmenurecyclerview:1.0'
+    
+```
+
+#Ivy
+```java
+
+   <dependency org='com.gxz' name='swapmenurecyclerview' rev='1.0'>
+     <artifact name='$AID' ext='pom'></artifact>
+   </dependency>
     
 ```
 

@@ -14,12 +14,12 @@ import com.gxz.library.view.SwipeMenuLayout;
 
 /**
  * ================================================
- * <br/>作    者：顾修忠-guxiuzhong@youku.com/gfj19900401@163.com
- * <br/>版    本：
- * <br/>创建日期：16/7/8-下午4:42
- * <br/>描    述：自定义SwapRecyclerView实现左滑显示菜单Menu
- * <br/>修订历史：
- * <br/>================================================
+ * 作    者：顾修忠-guxiuzhong@youku.com/gfj19900401@163.com
+ * 版    本：
+ * 创建日期：16/7/8-下午4:42
+ * 描    述：自定义SwapRecyclerView实现左滑显示菜单Menu
+ * 修订历史：
+ * ================================================
  */
 public class SwapRecyclerView extends RecyclerView {
     private static final int TOUCH_STATE_NONE = 0;  //没有滑动

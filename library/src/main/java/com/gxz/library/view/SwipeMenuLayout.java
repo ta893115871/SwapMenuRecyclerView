@@ -13,13 +13,13 @@ import android.widget.FrameLayout;
 
 /**
  * ================================================
- * <br/>作    者：顾修忠-guxiuzhong@youku.com/gfj19900401@163.com
- * <br/>版    本：
- * <br/>创建日期：16/7/8-下午5:19
- * <br/>描    述：包装RecyclerView的item的布局,实现
- * <br/>描    述：包装RecyclerView的item的布局,实现菜单操作的滑动打开与关闭
- * <br/>修订历史：
- * <br/>================================================
+ * 作    者：顾修忠-guxiuzhong@youku.com/gfj19900401@163.com
+ * 版    本：
+ * 创建日期：16/7/8-下午5:19
+ * 描    述：包装RecyclerView的item的布局,实现
+ * 描    述：包装RecyclerView的item的布局,实现菜单操作的滑动打开与关闭
+ * 修订历史：
+ * ================================================
  */
 @SuppressLint("ViewConstructor")
 public class SwipeMenuLayout extends FrameLayout {

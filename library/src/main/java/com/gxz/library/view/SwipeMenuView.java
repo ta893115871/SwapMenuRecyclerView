@@ -14,12 +14,12 @@ import java.util.List;
 
 /**
  * ================================================
- * <br/>作    者：顾修忠-guxiuzhong@youku.com/gfj19900401@163.com
- * <br/>版    本：
- * <br/>创建日期：16/7/8-下午5:14
- * <br/>描    述：
- * <br/>修订历史：
- * <br/>================================================
+ * 作    者：顾修忠-guxiuzhong@youku.com/gfj19900401@163.com
+ * 版    本：
+ * 创建日期：16/7/8-下午5:14
+ * 描    述：
+ * 修订历史：
+ * ================================================
  */
 public class SwipeMenuView extends LinearLayout implements View.OnClickListener {
 

@@ -31,6 +31,11 @@ publish {
     artifactId = 'swapmenurecyclerview'//项目名称
     publishVersion = '1.0'//版本号
     desc = 'swapmenurecyclerview'//描述
-    website = ''////网站，一般是github上的地址
+    website = 'https://github.com/ta893115871/SwapMenuRecyclerView'////网站，一般是github上的地址
     licences = ['Apache-2.0']
 }
+
+//  ./gradlew clean build bintrayUpload
+// -PbintrayUser=ta893115871
+// -PbintrayKey=xxxxxxxxxxxxxxxxxxxxxx
+// -PdryRun=false
