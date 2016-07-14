@@ -3,6 +3,10 @@
 #效果图
 <img src="/screenshots/swap2.gif"/></p>
 <img src="/screenshots/swap3.gif"/></p>
+
+#layout布局图
+<img src="/screenshots/layout.png"/></p>
+
 #Maven
 
 ```java
